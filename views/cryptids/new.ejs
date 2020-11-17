@@ -1,0 +1,14 @@
+<!-- action = what endpoint will this form go when submotted -->
+<!-- method = what verb is uses -->
+<h4>Add a new Cryptid!</h4>
+<form action="/cryptids" method="POST">
+    <!-- name is the key this dadt will enter our app at -->
+    <!-- shuold match field you need to match in your dinosaur -->
+    <label for="cryptoName">Name</label>
+    <input id="cryptoName" type="text" name="name">
+    
+    <label for="cryptoType">Image</label>
+    <input id="cryptoType" type="text" name="img_url">
+
+<input type="submit">
+</form>

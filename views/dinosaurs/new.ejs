@@ -1,0 +1,14 @@
+<!-- action = what endpoint will this form go when submotted -->
+<!-- method = what verb is uses -->
+<h4>Add a new Dinosaur!</h4>
+<form action="/dinosaurs" method="POST">
+    <!-- name is the key this dadt will enter our app at -->
+    <!-- shuold match field you need to match in your dinosaur -->
+    <label for="dinoName">Name</label>
+    <input id="dinoName" type="text" name="name">
+    
+    <label for="dinoType">Type</label>
+    <input id="dinoType" type="text" name="type">
+
+<input type="submit">
+</form>
